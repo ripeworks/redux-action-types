@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "babel index.js -o lib/index.js"
+    "prepublish": "mkdir -p lib && babel --presets es2015 index.js -o lib/index.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/ripeworks/redux-action-types#readme",
   "devDependencies": {
-    "babel": "^6.1.18"
+    "babel": "^6.1.18",
+    "babel-cli": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18"
   }
 }
