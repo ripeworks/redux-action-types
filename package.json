@@ -1,0 +1,23 @@
+{
+  "name": "redux-action-types",
+  "version": "1.0.0",
+  "description": "Shortcut for creating redux action constants.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ripeworks/redux-action-types.git"
+  },
+  "keywords": [
+    "redux",
+    "react"
+  ],
+  "author": "Ripeworks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ripeworks/redux-action-types/issues"
+  },
+  "homepage": "https://github.com/ripeworks/redux-action-types#readme"
+}
