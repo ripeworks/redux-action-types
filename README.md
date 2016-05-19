@@ -1,6 +1,8 @@
 # redux-action-types
 shortcut for making action types
 
+[![npm version](https://badge.fury.io/js/redux-action-types.svg)](https://badge.fury.io/js/redux-action-types)
+
 ```js
 import { createTypes, async } from 'redux-action-types'
 
