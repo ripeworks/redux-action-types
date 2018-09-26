@@ -4,15 +4,15 @@ shortcut for making action types
 [![npm version](https://badge.fury.io/js/redux-action-types.svg)](https://badge.fury.io/js/redux-action-types)
 
 ```js
-import { createTypes, async } from 'redux-action-types'
+import { createTypes, asyncAction } from 'redux-action-types'
 
 export const types = createTypes('my-app/module/',
   'SORT',
   'ADD',
-  async('LOAD'),
-  async('SAVE'),
-  async('UPDATE'),
-  async('REMOVE', ['REQUEST', 'COMPLETE'])
+  asyncAction('LOAD'),
+  asyncAction('SAVE'),
+  asyncAction('UPDATE'),
+  asyncAction('REMOVE', ['REQUEST', 'COMPLETE'])
 )
 
 /*
