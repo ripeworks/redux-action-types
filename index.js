@@ -5,6 +5,6 @@ export function createTypes(prefix, ...args) {
   }, {})
 }
 
-export function async(type, subTypes = ["REQUEST", "SUCCESS", "FAIL"]) {
+export function asyncAction(type, subTypes = ["REQUEST", "SUCCESS", "FAIL"]) {
   return [].concat(subTypes.map(t => `${type}_${t}`));
 }
